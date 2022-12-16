@@ -1,7 +1,7 @@
 import { Router } from "@edgio/core/router";
 
 export default new Router()
-  .prerender(new Array(100).fill(0).map((i, _) => ({ path: _ })))
+  .prerender(new Array(100).fill(0).map((i, _) => ({ path: `/${_}` })))
   .fallback(({ compute, cache }) => {
     cache({
       edge: {
