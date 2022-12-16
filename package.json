@@ -1,0 +1,9 @@
+{
+  "name": "edgio-prerender-example",
+  "devDependencies": {
+    "@edgio/cli": "^6.0.3",
+    "@edgio/core": "^6.0.3",
+    "@edgio/devtools": "^6.0.3",
+    "@edgio/prefetch": "^6.0.3"
+  }
+}
